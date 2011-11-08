@@ -3,7 +3,7 @@ require 'rake'
 
 desc "symlink emacs files"
 task :default do
-  symlnk %w[ .emacs.d ]
+  symlnk %w[ .emacs.d .lein ]
 end
 
 
