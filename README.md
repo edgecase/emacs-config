@@ -16,4 +16,11 @@ greater.
 4. Open emacs with your app launcher of choice. You should see emacs
 downloading all the defined packages.
 
-## Self-customizations
+## Customizing
+
+Emacs works especially well when wanting user-specific configurations.
+
+Simply place customization files to the folder
+`~/.emacs.d/<username>`. Where `<username>` is the `whoami` or `logname` of the currently logged in user.
+
+* Any file with a `.el` extension in that folder will be loaded when running `emacs`.
