@@ -16,6 +16,11 @@ greater.
 4. Open emacs with your app launcher of choice. You should see emacs
 downloading all the defined packages.
 
+We have leveraged Phil Hagelberg's
+[emacs-starter-kit](https://github.com/technomancy/emacs-starter-kit)
+which uses [Marmalade](http://marmalade-repo.org/) for downloading
+common emacs packages.
+
 ## Customizing
 
 Emacs works especially well when wanting user-specific configurations.
@@ -24,3 +29,5 @@ Simply place customization files to the folder
 `~/.emacs.d/<username>`. Where `<username>` is the `whoami` or `logname` of the currently logged in user.
 
 * Any file with a `.el` extension in that folder will be loaded when running `emacs`.
+
+We suggest creating your own repository of `.el` files and symlinking them to the folder `~/.emacs.d/<username>`.
