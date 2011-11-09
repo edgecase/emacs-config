@@ -14,7 +14,7 @@ greater.
 2. `cd emacs-config`
 3. `rake`
 4. Open emacs with your app launcher of choice. You should see emacs
-downloading all the defined packages.
+downloading and compiling the defined packages.
 
 We have leveraged Phil Hagelberg's
 [emacs-starter-kit](https://github.com/technomancy/emacs-starter-kit)
