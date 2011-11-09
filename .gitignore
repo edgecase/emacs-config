@@ -1,0 +1,5 @@
+.emacs.d/.smex-items
+.emacs.d/abbrev_defs
+.emacs.d/backups/
+.emacs.d/elpa/
+.emacs.d/places
