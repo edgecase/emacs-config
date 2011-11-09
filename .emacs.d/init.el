@@ -38,6 +38,13 @@
 ;; auto follow symlinked files
 (setq vc-follow-symlinks t)
 
+;; load more config files
+(setq emacs-config-dir "~/.emacs.d/")
+(load (expand-file-name "bindings.el" emacs-config-dir))
+(load (expand-file-name "cosmetics.el" emacs-config-dir))
+(load (expand-file-name "hooks.el" emacs-config-dir))
+(load (expand-file-name "workarounds.el" emacs-config-dir))
+
 ;; start eshell upon starting emacs
 (eshell)
 
