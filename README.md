@@ -31,3 +31,52 @@ Simply place customization files to the folder
 * Any file with a `.el` extension in that folder will be loaded when running `emacs`.
 
 We suggest creating your own repository of `.el` files and symlinking them to the folder `~/.emacs.d/<username>`.
+
+## Bindings
+
+### General
+
+`C-x C-+` => increase font size
+
+`C-x C-+` => decrease font size
+
+`C-x +` => balance windows
+
+### Dired Mode
+
+Think of it as "directory edit" mode.
+
+`C-x d` => dired mode
+
+* `C-x C-q` => edit filename inline
+* `C-c C-c` => commit changes
+
+### Clojure
+
+`C-c C-j` => clojure-jack-in
+
+`C-c f` => find-file-in-project
+
+### Version Control
+
+`C-x v =` => diff
+
+`C-x v u` => undo local changes
+
+`C-x v l` => view commit log
+
+`C-x v i` => include in repository (`git add <file>`)
+
+`C-c g` => MAGIT status
+
+* `<tab>` => view diff
+* `s` => stage changes
+* `u` => unstage changes
+* `c` => commit buffer
+* `C-c C-c` => commit changes
+* `C-c C-a` => amend changes
+* `P` => push
+* `F` => pull
+* `b` => change branch
+* `B` => new branch
+* `g` => refresh status buffer
