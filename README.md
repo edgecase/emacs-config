@@ -4,9 +4,7 @@ You should give it a try.
 
 ## Pre-requisites
 
-This config is built primarily to work on top of the OS X version of
-[Emacs](http://emacsforosx.com/). Be sure to download version 24 or
-greater.
+This config is built primarily to work on top of the OS X version of [Emacs](http://emacsforosx.com/). Be sure to download version 24 or greater.
 
 ## Install
 
@@ -21,16 +19,32 @@ We have leveraged Phil Hagelberg's
 which uses [Marmalade](http://marmalade-repo.org/) for downloading
 common emacs packages.
 
+### Clojure
+
+For a clojure development environment, follow the steps below.
+
+1. Install [Leiningen](https://github.com/technomancy/leiningen)
+
+2. If you're planning to use `clojure-jack-in` for opening
+[SLIME](http://common-lisp.net/project/slime/) in a clojure project,
+you must run `$ lein plugin install
+swank-clojure <VERSION>` where `<VERSION>` is the version of
+[swank-clojure](https://github.com/technomancy/swank-clojure) you wish
+to install. **OR**
+3. add `swank-clojure` to your `project.clj` `:dev-dependencies` and
+run `lein deps`. This will allow you to open a SLIME session inside
+the `leiningen` project.
+
 ## Customizing
 
 Emacs works especially well when wanting user-specific configurations.
 
-Simply place customization files to the folder
-`~/.emacs.d/<username>`. Where `<username>` is the `whoami` or `logname` of the currently logged in user.
+Simply place customization files to the folder `~/.emacs.d/<username>`. Where `<username>` is the `whoami` or `logname` of the currently logged in user.
 
-* Any file with a `.el` extension in that folder will be loaded when running `emacs`.
+* Any file with a `.el` extension in that folder will be loaded when running emacs.
 
-We suggest creating your own repository of `.el` files and symlinking them to the folder `~/.emacs.d/<username>`.
+We suggest creating your own repository of `.el` files and symlinking
+them to the folder `~/.emacs.d/<username>`.
 
 ## Bindings
 
