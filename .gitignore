@@ -1,6 +1,9 @@
 .emacs.d/.smex-items
 .emacs.d/abbrev_defs
-.emacs.d/backups/
-.emacs.d/elpa/
+.emacs.d/auto-save-list
+.emacs.d/backups
+.emacs.d/elpa
+.emacs.d/eshell
 .emacs.d/places
+.emacs.d/swank
 .lein
