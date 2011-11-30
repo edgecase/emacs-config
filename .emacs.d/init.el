@@ -25,6 +25,7 @@
     markdown-mode
     marmalade
     oddmuse
+    yasnippet
     yaml-mode))
 
 (dolist (p my-packages)
