@@ -3,6 +3,4 @@
 .emacs.d/backups/
 .emacs.d/elpa/
 .emacs.d/places
-.lein/bin/
-.lein/plugins/
-.lein/self-installs/
+.lein

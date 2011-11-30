@@ -3,9 +3,8 @@ require 'rake'
 
 desc "symlink emacs files"
 task :default do
-  symlnk %w[ .emacs.d .lein ]
+  symlnk %w[ .emacs.d ]
 end
-
 
 def symlnk(files)
   files.each do |file|
@@ -51,7 +50,6 @@ end
 def link_file(file)
   puts " => symlinking #{file}"
   directory = File.dirname(__FILE__)
-  # sh("ln -s #{File.join(directory, file)} #{ENV['HOME']}/#{file}")
   File.symlink("#{File.join(directory, file)}", "#{ENV['HOME']}/#{file}")
 end
 
