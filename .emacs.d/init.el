@@ -7,7 +7,8 @@
   (package-refresh-contents))
 
 (defvar my-packages
-  '(clojure-mode
+  '(ac-slime
+    clojure-mode
     clojure-test-mode
     clojurescript-mode
     haml-mode
@@ -24,6 +25,7 @@
     magit
     markdown-mode
     marmalade
+    midje-mode
     oddmuse
     yasnippet
     yaml-mode))
