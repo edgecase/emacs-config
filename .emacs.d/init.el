@@ -8,6 +8,7 @@
 
 (defvar my-packages
   '(ac-slime
+    buffer-move
     clojure-mode
     clojure-test-mode
     clojurescript-mode

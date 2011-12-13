@@ -2,6 +2,13 @@
 
 (global-set-key (kbd "C-c f") 'find-file-in-project)
 
+;; buffer-move bindings
+(require 'buffer-move)
+(global-set-key (kbd "<C-S-up>")     'buf-move-up)
+(global-set-key (kbd "<C-S-down>")   'buf-move-down)
+(global-set-key (kbd "<C-S-left>")   'buf-move-left)
+(global-set-key (kbd "<C-S-right>")  'buf-move-right)
+
 ;; isearch customizations
 
 (defvar isearch-paste-keymap (make-sparse-keymap "isearch-paste"))
