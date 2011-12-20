@@ -56,6 +56,8 @@ them to the folder `~/.emacs.d/<username>`.
 
 `C-x +` => balance windows
 
+`M-g g` , `M-g M-g` => goto line number
+
 ### Dired Mode
 
 Think of it as "directory edit" mode.
