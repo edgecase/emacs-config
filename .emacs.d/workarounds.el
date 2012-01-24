@@ -10,3 +10,7 @@
 
 ;; do not compile scss files on save
 (setq scss-compile-at-save nil)
+
+;; set mustache-mode
+(require 'mustache-mode)
+(add-to-list 'auto-mode-alist '("\\.hbs$" . mustache-mode))

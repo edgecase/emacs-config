@@ -49,6 +49,7 @@
 (load (expand-file-name "hooks.el" emacs-config-dir))
 (load (expand-file-name "workarounds.el" emacs-config-dir))
 (load (expand-file-name "yasnippet.el" emacs-config-dir))
+(load (expand-file-name "mustache-mode.el" emacs-config-dir))
 
 ;; start eshell upon starting emacs
 (eshell)
