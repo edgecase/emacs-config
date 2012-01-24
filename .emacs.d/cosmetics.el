@@ -10,6 +10,23 @@
 ;; highlight ending whitespace
 (global-whitespace-mode t)
 
+;; display only tails of lines longer than 250 columns, tabs and
+;; trailing whitespaces
+(setq whitespace-line-column 250
+      whitespace-style '(face tabs trailing lines-tail))
+
+;; face for long lines' tails
+(set-face-attribute 'whitespace-line nil
+                    :background "red1"
+                    :foreground "yellow"
+                    :weight 'bold)
+
+;; face for Tabs
+(set-face-attribute 'whitespace-tab nil
+                    :background "red1"
+                    :foreground "yellow"
+                    :weight 'bold)
+
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
