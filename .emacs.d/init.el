@@ -42,6 +42,9 @@
 ;; auto follow symlinked files
 (setq vc-follow-symlinks t)
 
+;; Emacs is fast for OSX again!
+(setq font-lock-verbose nil)
+
 ;; load more config files
 (setq emacs-config-dir "~/.emacs.d/")
 (load (expand-file-name "bindings.el" emacs-config-dir))
