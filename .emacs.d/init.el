@@ -38,6 +38,7 @@
 ;; setup OS X path
 (setenv "PATH" (concat (shell-command-to-string "/bin/zsh -l -c 'echo -n $PATH'")
                        ":" (getenv "HOME") "/bin"))
+(push "/usr/local/git/bin" exec-path)
 
 ;; auto follow symlinked files
 (setq vc-follow-symlinks t)
