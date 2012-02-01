@@ -12,6 +12,7 @@
     clojure-mode
     clojure-test-mode
     clojurescript-mode
+    coffee-mode
     haml-mode
     ruby-mode
     scpaste
