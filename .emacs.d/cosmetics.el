@@ -15,6 +15,9 @@
 (setq whitespace-line-column 250
       whitespace-style '(face tabs trailing lines-tail))
 
+;; default tab-width
+(setq-default tab-width 2)
+
 ;; face for long lines' tails
 (set-face-attribute 'whitespace-line nil
                     :background "red1"
