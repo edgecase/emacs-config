@@ -1,3 +1,4 @@
+.DS_Store
 .emacs.d/.smex-items
 .emacs.d/abbrev_defs
 .emacs.d/auto-save-list
