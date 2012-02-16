@@ -1,6 +1,3 @@
-;; turn off line highlight
-(remove-hook 'prog-mode-hook 'esk-turn-on-hl-line-mode)
-
 ;; default to better frame titles
 (setq frame-title-format (concat  "%b - emacs@" system-name))
 
