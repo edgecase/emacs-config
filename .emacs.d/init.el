@@ -14,6 +14,7 @@
     clojurescript-mode
     coffee-mode
     haml-mode
+    pivotal-tracker
     ruby-mode
     scpaste
     scss-mode
