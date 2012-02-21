@@ -50,6 +50,8 @@ them to the folder `~/.emacs.d/<username>`.
 
 ### General
 
+[General Resources](http://www.gnu.org/software/emacs/manual/html_node/emacs/index.html)
+
 `C-x C-+` => increase font size
 
 `C-x C-+` => decrease font size
@@ -62,10 +64,15 @@ them to the folder `~/.emacs.d/<username>`.
 
 Think of it as "directory edit" mode.
 
+[Resources](http://www.gnu.org/software/emacs/manual/html_node/emacs/Dired.html)
+
 `C-x d` => dired mode
 
 * `C-x C-q` => edit filename inline
 * `C-c C-c` => commit changes
+* `d` => schedule file for deletion
+* `u` => unschedule action for this line
+* `x` => execute scheduled changes
 
 ### Clojure
 
