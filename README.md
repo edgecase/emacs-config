@@ -64,7 +64,7 @@ them to the folder `~/.emacs.d/<username>`.
 
 Think of it as "directory edit" mode.
 
-[Resources](http://www.gnu.org/software/emacs/manual/html_node/emacs/Dired.html)
+[Dired Mode Resources](http://www.gnu.org/software/emacs/manual/html_node/emacs/Dired.html)
 
 `C-x d` => dired mode
 
