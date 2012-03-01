@@ -31,7 +31,9 @@
     midje-mode
     oddmuse
     yasnippet
-    yaml-mode))
+    yaml-mode
+    color-theme-solarized
+    zenburn-theme))
 
 (dolist (p my-packages)
   (when (not (package-installed-p p))

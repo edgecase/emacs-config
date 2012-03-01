@@ -1,5 +1,3 @@
-;;(add-hook 'ruby-mode-hook 'whitespace-mode)
-
 ;; ruby
 (eval-after-load 'ruby-mode
   '(ignore-errors
