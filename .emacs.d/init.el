@@ -32,7 +32,8 @@
     oddmuse
     yasnippet
     yaml-mode
-    color-theme-solarized
+    ;; themes
+    solarized-theme
     zenburn-theme))
 
 (dolist (p my-packages)
@@ -50,21 +51,18 @@
 ;; Emacs is fast for OSX again!
 (setq font-lock-verbose nil)
 
+;; Configuration root directory path.
+(setq config-dir (file-name-directory
+                  (or (buffer-file-name) load-file-name)))
+
+(add-to-list 'load-path config-dir)
+
 ;; load more config files
-(setq emacs-config-dir "~/.emacs.d/")
-(load (expand-file-name "bindings.el" emacs-config-dir))
-(load (expand-file-name "cosmetics.el" emacs-config-dir))
-(load (expand-file-name "hooks.el" emacs-config-dir))
-(load (expand-file-name "registers.el" emacs-config-dir))
-
-(load (expand-file-name "yasnippet.el" emacs-config-dir))
-(load (expand-file-name "mustache-mode.el" emacs-config-dir))
-
-(load (expand-file-name "workarounds.el" emacs-config-dir))
-
-;; start eshell upon starting emacs
-(eshell)
-
-;; graaaaaaah! eshell doesn't respect eval-after-load for some reason:
-(with-current-buffer "*eshell*" (setq pcomplete-cycle-completions nil))
-(set-face-foreground 'eshell-prompt "turquoise")
+(load "config-bindings")
+(load "config-clojure-mode")
+(load "config-cosmetics")
+(load "config-hooks")
+(load "config-registers")
+(load "mustache-mode")
+(load "config-workarounds")
+(load "config-yasnippet")

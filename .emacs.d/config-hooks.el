@@ -8,3 +8,7 @@
 (eval-after-load 'javascript-mode
   '(ignore-errors
      (add-hook 'javascript-mode-hook 'esk-paredit-nonlisp)))
+
+;; ac-slime config
+;; (add-hook 'slime-mode-hook 'set-up-slime-ac)
+;; (add-hook 'slime-repl-mode-hook 'set-up-slime-ac)
