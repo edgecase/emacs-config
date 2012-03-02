@@ -8,4 +8,5 @@
 .emacs.d/places
 .emacs.d/swank
 .emacs.d/url
+*.elc
 .lein
