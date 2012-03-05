@@ -40,9 +40,16 @@
   (when (not (package-installed-p p))
     (package-install p)))
 
+;; Configuration root
+(setq config-dir (file-name-directory (or (buffer-file-name) load-file-name)))
+(add-to-list 'load-path config-dir)
+
 ;; setup OS X path
-(setenv "PATH" (concat (shell-command-to-string "/bin/zsh -l -c 'echo -n $PATH'")
-                       ":" (getenv "HOME") "/bin"))
+(if (string-equal "darwin" (symbol-name system-type))
+    (setenv "PATH" (concat (shell-command-to-string "/bin/zsh -l -c 'echo -n $PATH'")
+                           ":" (getenv "HOME") "/bin")))
+
+;; let emacs use git
 (push "/usr/local/git/bin" exec-path)
 
 ;; auto follow symlinked files
@@ -50,12 +57,6 @@
 
 ;; Emacs is fast for OSX again!
 (setq font-lock-verbose nil)
-
-;; Configuration root directory path.
-(setq config-dir (file-name-directory
-                  (or (buffer-file-name) load-file-name)))
-
-(add-to-list 'load-path config-dir)
 
 ;; load more config files
 (load "config-bindings")
