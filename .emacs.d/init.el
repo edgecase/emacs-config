@@ -62,6 +62,7 @@
 (load "config-bindings")
 (load "config-clojure-mode")
 (load "config-cosmetics")
+(load "config-defuns")
 (load "config-hooks")
 (load "config-registers")
 (load "mustache-mode")

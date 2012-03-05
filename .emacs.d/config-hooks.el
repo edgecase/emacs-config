@@ -12,3 +12,12 @@
 ;; ac-slime config
 ;; (add-hook 'slime-mode-hook 'set-up-slime-ac)
 ;; (add-hook 'slime-repl-mode-hook 'set-up-slime-ac)
+;; ***************************************************************************
+;; Automatically recompile the emacs init file on buffer-save or exit
+;; ---------------------------------------------------------------------------
+(defun my-emacs-lisp-mode-hook ()
+  (when (files-equal-p buffer-file-name user-init-file)
+    (add-hook 'after-save-hook 'byte-compile-user-init-file t t)))
+
+(add-hook 'emacs-lisp-mode-hook 'my-emacs-lisp-mode-hook)
+(add-hook 'kill-emacs-hook 'byte-compile-user-init-file t t)
