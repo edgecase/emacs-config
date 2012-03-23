@@ -1,3 +1,4 @@
+;; find file in project
 (global-set-key (kbd "C-c f") 'find-file-in-project)
 
 ;; buffer-move bindings
@@ -8,7 +9,6 @@
 (global-set-key (kbd "<C-S-right>")  'buf-move-right)
 
 ;; isearch customizations
-
 (defvar isearch-paste-keymap (make-sparse-keymap "isearch-paste"))
 (define-key isearch-mode-map (kbd "C-v") isearch-paste-keymap)
 (define-key isearch-mode-map (kbd "C-e") 'isearch-yank-line)
