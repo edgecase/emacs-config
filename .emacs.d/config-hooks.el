@@ -16,7 +16,7 @@
 ;; Automatically recompile the emacs init file on buffer-save or exit
 ;; ---------------------------------------------------------------------------
 (defun my-emacs-lisp-mode-hook ()
-  (when (files-equal-p buffer-file-name user-init-file)
+  (when (files-equal-p (or buffer-file-name "") user-init-file)
     (add-hook 'after-save-hook 'byte-compile-user-init-file t t)))
 
 (add-hook 'emacs-lisp-mode-hook 'my-emacs-lisp-mode-hook)
