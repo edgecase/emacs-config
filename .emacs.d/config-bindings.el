@@ -1,6 +1,9 @@
 ;; find file in project
 (global-set-key (kbd "C-c f") 'find-file-in-project)
 
+;; view kill ring
+(global-set-key (kbd "C-c y") '(lambda () (interactive) (popup-menu 'yank-menu)))
+
 ;; buffer-move bindings
 (require 'buffer-move)
 (global-set-key (kbd "<C-S-up>")     'buf-move-up)
