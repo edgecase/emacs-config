@@ -38,4 +38,3 @@
 ;; (load-theme 'tsdh-dark t)
 (load-theme 'solarized-dark t)
 ;; (load-theme 'zenburn t)
-
