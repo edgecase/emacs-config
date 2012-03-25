@@ -52,6 +52,8 @@ them to the folder `~/.emacs.d/<username>`.
 
 [General Resources](http://www.gnu.org/software/emacs/manual/html_node/emacs/index.html)
 
+`C-x C-c` => exit emacs
+
 `C-x C-+` => increase font size
 
 `C-x C-+` => decrease font size
