@@ -61,6 +61,7 @@
 (setq font-lock-verbose nil)
 
 ;; load more config files
+(load "config-autocomplete")
 (load "config-bindings")
 (load "config-clojure-mode")
 (load "config-cosmetics")

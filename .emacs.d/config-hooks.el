@@ -9,9 +9,6 @@
   '(ignore-errors
      (add-hook 'javascript-mode-hook 'esk-paredit-nonlisp)))
 
-;; ac-slime config
-;; (add-hook 'slime-mode-hook 'set-up-slime-ac)
-;; (add-hook 'slime-repl-mode-hook 'set-up-slime-ac)
 ;; ***************************************************************************
 ;; Automatically recompile the emacs init file on buffer-save or exit
 ;; ---------------------------------------------------------------------------

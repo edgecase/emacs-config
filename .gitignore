@@ -1,11 +1,16 @@
 .DS_Store
 .emacs.d/.smex-items
 .emacs.d/abbrev_defs
+.emacs.d/ac-comphist.dat
+.emacs.d/ac-dict
+.emacs.d/auto-complete*
 .emacs.d/auto-save-list
 .emacs.d/backups
 .emacs.d/elpa
 .emacs.d/eshell
+.emacs.d/fuzzy.el
 .emacs.d/places
+.emacs.d/popup.el
 .emacs.d/swank
 .emacs.d/url
 *.elc

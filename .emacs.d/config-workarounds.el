@@ -14,7 +14,3 @@
 ;; set mustache-mode
 (require 'mustache-mode)
 (add-to-list 'auto-mode-alist '("\\.hbs$" . mustache-mode))
-
-;; (add-to-list 'ac-dictionary-directories "~/.emacs.d/ac-dict")
-;; (require 'auto-complete-config)
-;; (ac-config-default)
