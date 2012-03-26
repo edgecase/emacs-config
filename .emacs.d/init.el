@@ -16,6 +16,7 @@
     haml-mode
     pivotal-tracker
     ruby-mode
+    sass-mode
     scpaste
     scss-mode
     starter-kit
@@ -63,7 +64,6 @@
 ;; load more config files
 (load "config-autocomplete")
 (load "config-bindings")
-(load "config-clojure-mode")
 (load "config-cosmetics")
 (load "config-defuns")
 (load "config-hooks")
@@ -71,3 +71,8 @@
 (load "mustache-mode")
 (load "config-workarounds")
 (load "config-yasnippet")
+
+(load "config-clojure-mode")
+(load "config-markdown-mode")
+(load "config-scss-mode")
+(load "config-yaml-mode")
