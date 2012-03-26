@@ -47,8 +47,9 @@
 
 ;; setup OS X path
 (if (string-equal "darwin" (symbol-name system-type))
-    (setenv "PATH" (concat (shell-command-to-string "/bin/zsh -l -c 'echo -n $PATH'")
-                           ":" (getenv "HOME") "/bin")))
+    (setenv "PATH" (concat
+                    (shell-command-to-string "/bin/zsh -l -c 'echo -n $PATH'")
+                    ":" (getenv "HOME") "/bin")))
 
 ;; let emacs use git
 (push "/usr/local/git/bin" exec-path)
