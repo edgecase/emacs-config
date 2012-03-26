@@ -33,6 +33,7 @@
     yasnippet
     yaml-mode
     ;; themes
+    color-theme-sanityinc-tomorrow
     solarized-theme
     zenburn-theme))
 
