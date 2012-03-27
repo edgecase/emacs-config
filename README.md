@@ -54,13 +54,17 @@ them to the folder `~/.emacs.d/<username>`.
 
 `C-x C-c` => exit emacs
 
+`M-g g` , `M-g M-g` => goto line number
+
+`C-s` => regexp search (forward)
+
+`C-r` => regexp reverse search
+
 `C-x C-+` => increase font size
 
 `C-x C-+` => decrease font size
 
 `C-x +` => balance windows
-
-`M-g g` , `M-g M-g` => goto line number
 
 ### Dired Mode
 
