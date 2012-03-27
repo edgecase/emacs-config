@@ -62,7 +62,7 @@ them to the folder `~/.emacs.d/<username>`.
 
 `C-x C-+` => increase font size
 
-`C-x C-+` => decrease font size
+`C-x C--` => decrease font size
 
 `C-x +` => balance windows
 
