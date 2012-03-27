@@ -1,5 +1,5 @@
 ;; stark swank server and open a slime session inside leiningen project
-(define-key clojure-mode-map (kbd "C-c C-j") 'clojure-jack-in)
+(global-set-key (kbd "C-c C-j") 'clojure-jack-in)
 
 ;; use this function to open a repl on heroku deployed apps
 (defun heroku-repl ()
@@ -13,4 +13,4 @@
     (insert "\n(defn " (symbol-name name) "\n  \"\"\n  []\n  )\n")
     (backward-char 11)))
 
-(define-key clojure-mode-map (kbd "C-c f") 'define-function)
+(global-set-key (kbd "C-c d") 'define-function)

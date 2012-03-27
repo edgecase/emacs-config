@@ -1,6 +1,3 @@
-;; find file in project
-(global-set-key (kbd "C-c f") 'find-file-in-project)
-
 ;; view kill ring
 (global-set-key (kbd "C-c y") '(lambda () (interactive) (popup-menu 'yank-menu)))
 
