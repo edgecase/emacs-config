@@ -68,11 +68,11 @@
 (load "config-defuns")
 (load "config-hooks")
 (load "config-registers")
-(load "mustache-mode")
 (load "config-workarounds")
 (load "config-yasnippet")
 
 (load "config-clojure-mode")
 (load "config-markdown-mode")
+(load "config-mustache-mode")
 (load "config-scss-mode")
 (load "config-yaml-mode")
