@@ -60,6 +60,11 @@ them to the folder `~/.emacs.d/<username>`.
 
 `C-r` => regexp reverse search
 
+`C-c y` => popup yank menu
+
+`C-S-up`, `C-S-down`, `C-S-left`, `C-S-right`  => move buffer up,
+down, left, right
+
 `C-x C-+` => increase font size
 
 `C-x C--` => decrease font size
@@ -85,6 +90,11 @@ Think of it as "directory edit" mode.
 `C-c C-j` => clojure-jack-in
 
 `C-c f` => find-file-in-project
+
+`C-c d` => define function, creates new function for the current
+symbol [video](http://www.youtube.com/watch?v=D2s_d9gvNVI)
+
+`M-x heroku-repl` => open repl in a heroku-hosted clojure project
 
 ### Version Control
 
