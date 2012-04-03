@@ -62,7 +62,7 @@ them to the folder `~/.emacs.d/<username>`.
 
 `C-c y` => popup yank menu
 
-`C-S-up`, `C-S-down`, `C-S-left`, `C-S-right`  => move buffer up,
+`C-S-up`, `C-S-down`, `C-S-left`, `C-S-right`  => swap buffer up,
 down, left, right
 
 `C-x C-+` => increase font size
