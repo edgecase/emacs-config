@@ -75,5 +75,6 @@
 (load "config-clojure-mode")
 (load "config-markdown-mode")
 (load "config-mustache-mode")
+(load "config-ruby-mode")
 (load "config-scss-mode")
 (load "config-yaml-mode")
