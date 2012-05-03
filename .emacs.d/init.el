@@ -19,6 +19,7 @@
     clojurescript-mode
     coffee-mode
     haml-mode
+    highlight-symbol
     pivotal-tracker
     ruby-mode
     sass-mode
@@ -72,6 +73,7 @@
 (load "config-bindings")
 (load "config-cosmetics")
 (load "config-defuns")
+(load "config-highlight-symbol")
 (load "config-hooks")
 (load "config-osx")
 (load "config-registers")
