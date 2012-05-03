@@ -42,8 +42,9 @@ Optional TRANSFORM function is called on the match before insertion"
     (isearch-paste-current-match (lambda (str)
                                    (concat "#{" str "}")))))
 
-;; C-v C-i : paste isearch match as a double-quoted string
+;; C-v C-s : paste isearch match as a double-quoted string
 (define-key isearch-paste-keymap (kbd "C-s")
   (lambda () (interactive)
     (isearch-paste-current-match (lambda (str)
                                    (concat "\"" str "\"")))))
+

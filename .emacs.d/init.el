@@ -75,11 +75,13 @@
 (load "config-defuns")
 (load "config-highlight-symbol")
 (load "config-hooks")
+(load "config-isearch")
 (load "config-osx")
 (load "config-registers")
 (load "config-workarounds")
 (load "config-yasnippet")
 
+;; load major mode configs
 (load "config-clojure-mode")
 (load "config-markdown-mode")
 (load "config-mustache-mode")
