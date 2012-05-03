@@ -1,3 +1,7 @@
+(when (eq system-type 'darwin)
+  ;; Work around a bug on OS X where system-name is FQDN
+  (setq system-name (car (split-string system-name "\\."))))
+
 (require 'package)
 (add-to-list 'package-archives
              '("marmalade" . "http://marmalade-repo.org/packages/"))
