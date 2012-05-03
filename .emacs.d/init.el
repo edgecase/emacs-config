@@ -17,6 +17,7 @@
     clojure-mode
     clojure-test-mode
     clojurescript-mode
+    color-theme
     coffee-mode
     haml-mode
     highlight-symbol
