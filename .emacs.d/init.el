@@ -69,6 +69,7 @@
 (load "config-cosmetics")
 (load "config-defuns")
 (load "config-hooks")
+(load "config-osx")
 (load "config-registers")
 (load "config-workarounds")
 (load "config-yasnippet")
