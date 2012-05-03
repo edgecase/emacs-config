@@ -53,7 +53,7 @@
 (add-to-list 'load-path config-dir)
 
 ;; setup OS X path
-(if (string-equal "darwin" (symbol-name system-type))
+(if (eq system-type 'darwin)
     (setenv "PATH" (concat
                     (shell-command-to-string "/bin/zsh -l -c 'echo -n $PATH'")
                     ":" (getenv "HOME") "/bin")))
