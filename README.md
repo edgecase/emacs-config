@@ -96,6 +96,25 @@ symbol [video](http://www.youtube.com/watch?v=D2s_d9gvNVI)
 
 `M-x heroku-repl` => open repl in a heroku-hosted clojure project
 
+### Clojure Test
+
+Support for Clojure tests using `clojure.test` via SLIME and the
+buffer.
+
+`C-c ,`, `C-c C-,` => run tests
+
+`C-c M-,` => run current test
+
+`C-c '`, `C-c C-'` => show test results
+
+`C-c k` => clear test results
+
+`C-c t` => jump to implementation
+
+`M-p` => jump to previous problem
+
+`M-n` => jump to next problem
+
 ### Version Control
 
 `C-x v =` => diff
