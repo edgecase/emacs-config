@@ -4,7 +4,7 @@ You should give it a try.
 
 ## Pre-requisites
 
-This config is built primarily to work on top of the OS X version of [Emacs](http://emacsforosx.com/). Be sure to download version 24 or greater.
+This config is built primarily to work on top of the OS X version of [Emacs](http://emacsforosx.com/). Be sure to download version **24** or greater.
 
 ## Install
 
