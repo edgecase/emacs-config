@@ -21,11 +21,13 @@
     coffee-mode
     haml-mode
     highlight-symbol
+    less-css-mode
     pivotal-tracker
     ruby-mode
     sass-mode
     scpaste
     scss-mode
+    slim-mode
     starter-kit
     starter-kit-bindings
     starter-kit-eshell
