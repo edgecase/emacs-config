@@ -86,6 +86,7 @@
 
 ;; load major mode configs
 (load "config-clojure-mode")
+(load "config-less-css-mode")
 (load "config-markdown-mode")
 (load "config-mustache-mode")
 (load "config-ruby-mode")
