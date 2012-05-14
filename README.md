@@ -71,6 +71,18 @@ down, left, right
 
 `C-x +` => balance windows
 
+###### Macros
+
+`C-x (`
+
+`# do stuff`
+
+`C-x )`
+
+`C-x e` => execute the macro once
+
+`e` => repeat the macro
+
 ### Dired Mode
 
 Think of it as "directory edit" mode.
