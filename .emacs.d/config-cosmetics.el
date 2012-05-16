@@ -40,13 +40,13 @@
 ;;;
 ;;; Choose your theme
 ;;;
-;; (color-theme-sanityinc-tomorrow-day)
 ;; (color-theme-sanityinc-tomorrow-night)
+;; (color-theme-sanityinc-tomorrow-day)
+;; (color-theme-sanityinc-tomorrow-eighties)
 ;; (color-theme-sanityinc-tomorrow-blue)
 (color-theme-sanityinc-tomorrow-bright)
 ;; (load "blackbored")
 ;; (color-theme-blackbored)
-;; (load-theme 'color-theme-sanityinc-tomorrow-eighties)
 ;; (load-theme 'deeper-blue t)
 ;; (load-theme 'tango-dark t)
 ;; (load-theme 'tsdh-dark t)
