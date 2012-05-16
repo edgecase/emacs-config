@@ -1,9 +1,9 @@
 ;; font
 (set-face-attribute 'default nil :height 140)
 
-;; change hl-line color from annoying yellow
-(custom-set-faces
- '(hl-line ((t (:background "#2b2b2b")))))
+;; change hl-line color to light grayn
+;; (custom-set-faces
+;;  '(hl-line ((t (:background "#2a2a2a")))))
 
 ;; default to better frame titles
 (setq frame-title-format (concat  "%b - emacs@" system-name))
