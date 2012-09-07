@@ -91,5 +91,6 @@
 (load "config-mustache-mode")
 (load "config-ruby-mode")
 (load "config-scss-mode")
+(load "config-sh-mode")
 (load "config-window-number-mode")
 (load "config-yaml-mode")
