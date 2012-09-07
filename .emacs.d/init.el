@@ -38,7 +38,7 @@
     magit
     markdown-mode
     marmalade
-    midje-mode
+    ;; midje-mode
     oddmuse
     window-number
     yasnippet
