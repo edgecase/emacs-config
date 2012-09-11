@@ -5,6 +5,7 @@
 .emacs.d/ac-dict
 .emacs.d/auto-complete*
 .emacs.d/auto-save-list
+.emacs.d/auto-save-files
 .emacs.d/backups
 .emacs.d/elpa
 .emacs.d/eshell
