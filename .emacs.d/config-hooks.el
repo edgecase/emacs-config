@@ -18,3 +18,4 @@
 
 (add-hook 'emacs-lisp-mode-hook 'my-emacs-lisp-mode-hook)
 (add-hook 'kill-emacs-hook 'byte-compile-user-init-file t t)
+;;(add-hook 'after-save-hook 'delete-trailing-whitespace)
