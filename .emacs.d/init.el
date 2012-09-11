@@ -93,3 +93,16 @@
 (load "config-scss-mode")
 (load "config-window-number-mode")
 (load "config-yaml-mode")
+
+;; Put auto-save files (ie #foo#) and backup files (ie foo~) in ~/.emacs.d/auto-save-files.
+;; (custom-set-variables
+;;   '(auto-save-file-name-transforms '((".*" "~/.emacs.d/auto-save-files/\\1" t)))
+;;   '(backup-directory-alist '((".*" . "~/.emacs.d/backups/"))))
+
+(setq backup-directory-alist
+      `((".*" . , "~/.emacs.d/backups/")))
+(setq auto-save-file-name-transforms
+      `((".*" , "~/.emacs.d/auto-save-files/" t)))
+
+;; create the autosave dir if necessary, since emacs won't.
+(make-directory "~/.emacs.d/auto-save-files/" t)
