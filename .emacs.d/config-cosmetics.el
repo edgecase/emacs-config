@@ -11,13 +11,13 @@
 ;; turn on line numbers
 (global-linum-mode t)
 
-;; highlight ending whitespace
-(global-whitespace-mode t)
-
 ;; display only tails of lines longer than 80 columns, tabs and
 ;; trailing whitespaces
 (setq whitespace-line-column 80
-      whitespace-style '(face tabs trailing lines-tail))
+      whitespace-style '(face trailing tabs lines-tail empty))
+
+;; highlight ending whitespace
+(global-whitespace-mode t)
 
 ;; default tab-width
 (setq-default tab-width 2)
