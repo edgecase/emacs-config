@@ -1,6 +1,9 @@
 ;; view kill ring
 (global-set-key (kbd "C-c y") '(lambda () (interactive) (popup-menu 'yank-menu)))
 
+;; expand-region bindings
+(global-set-key (kbd "C-=") 'er/expand-region)
+
 ;; buffer-move bindings
 (require 'buffer-move)
 (global-set-key (kbd "<C-S-up>")     'buf-move-up)

@@ -19,6 +19,7 @@
     clojurescript-mode
     color-theme
     coffee-mode
+    expand-region
     haml-mode
     highlight-symbol
     less-css-mode
