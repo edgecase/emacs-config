@@ -1,3 +1,7 @@
+;; easy window scrolling up and down.
+(global-set-key (kbd "M-n") 'scroll-up-line)
+(global-set-key (kbd "M-p") 'scroll-down-line)
+
 ;; view kill ring
 (global-set-key (kbd "C-c y") '(lambda () (interactive) (popup-menu 'yank-menu)))
 
