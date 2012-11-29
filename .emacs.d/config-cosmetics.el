@@ -40,11 +40,11 @@
 ;;;
 ;;; Choose your theme
 ;;;
-;; (color-theme-sanityinc-tomorrow-night)
 ;; (color-theme-sanityinc-tomorrow-day)
-;; (color-theme-sanityinc-tomorrow-eighties)
+;; (color-theme-sanityinc-tomorrow-night)
 ;; (color-theme-sanityinc-tomorrow-blue)
 (color-theme-sanityinc-tomorrow-bright)
+;; (color-theme-sanityinc-tomorrow-eighties)
 ;; (load "blackbored")
 ;; (color-theme-blackbored)
 ;; (load-theme 'deeper-blue t)
