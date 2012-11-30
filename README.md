@@ -150,3 +150,10 @@ buffer.
 * `b` => change branch
 * `B` => new branch
 * `g` => refresh status buffer
+
+### Snippets ###
+
+We are using YASnippet, a TextMate-like snippet templates. Check
+`.emacs.d/snippets` for a list of snippets for each major-mode.
+
+Feel free to add your own!
