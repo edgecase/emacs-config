@@ -21,6 +21,7 @@
     color-theme
     coffee-mode
     expand-region
+    feature-mode
     haml-mode
     highlight-symbol
     less-css-mode
