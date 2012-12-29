@@ -28,7 +28,6 @@
     pivotal-tracker
     ruby-mode
     sass-mode
-    scpaste
     scss-mode
     slim-mode
     starter-kit
