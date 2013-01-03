@@ -3,9 +3,9 @@
   (setq system-name (car (split-string system-name "\\."))))
 
 (require 'package)
-(add-to-list 'package-archives
-             '("melpa" . "http://melpa.milkbox.net/packages/")
-             '("marmalade" . "http://marmalade-repo.org/packages/"))
+(setq package-archives '(("gnu" . "http://elpa.gnu.org/packages/")
+                         ("marmalade" . "http://marmalade-repo.org/packages/")
+                         ("melpa" . "http://melpa.milkbox.net/packages/")))
 (package-initialize)
 
 (when (null package-archive-contents)
@@ -21,13 +21,13 @@
     color-theme
     coffee-mode
     expand-region
+    feature-mode
     haml-mode
     highlight-symbol
     less-css-mode
     pivotal-tracker
     ruby-mode
     sass-mode
-    scpaste
     scss-mode
     slim-mode
     starter-kit
