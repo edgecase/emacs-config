@@ -97,6 +97,35 @@ Think of it as "directory edit" mode.
 * `u` => unschedule action for this line
 * `x` => execute scheduled changes
 
+### Version Control
+
+Using [Magit](http://daemianmack.com/magit-cheatsheet.html)
+
+`C-x v =` => diff
+
+`C-x v u` => undo local changes
+
+`C-x v l` => view commit log
+
+`C-x v i` => include in repository (`git add <file>`)
+
+`C-c g` => MAGIT status
+
+* `<tab>` => view diff
+* `s` => stage changes
+* `S` => stage all changes
+* `u` => unstage changes
+* `c` => commit buffer
+* `k` => delete file
+* `C-c C-c` => commit changes
+* `C-c C-a` => amend changes
+* `P` => push buffer
+* `F` => pull
+* `b` => change branch
+* `B` => new branch
+* `g` => refresh status buffer
+* `l` => view `git log`
+
 ### Clojure
 
 `C-c C-j` => clojure-jack-in
@@ -126,30 +155,6 @@ buffer.
 `M-p` => jump to previous problem
 
 `M-n` => jump to next problem
-
-### Version Control
-
-`C-x v =` => diff
-
-`C-x v u` => undo local changes
-
-`C-x v l` => view commit log
-
-`C-x v i` => include in repository (`git add <file>`)
-
-`C-c g` => MAGIT status
-
-* `<tab>` => view diff
-* `s` => stage changes
-* `u` => unstage changes
-* `c` => commit buffer
-* `C-c C-c` => commit changes
-* `C-c C-a` => amend changes
-* `P` => push
-* `F` => pull
-* `b` => change branch
-* `B` => new branch
-* `g` => refresh status buffer
 
 ### Snippets ###
 
