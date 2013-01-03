@@ -71,6 +71,12 @@ down, left, right
 
 `C-x +` => balance windows
 
+`C-c i d` => insert date
+
+`C-c i t` => insert time
+
+`C-c t` => toggle transparency
+
 ###### Macros
 
 `C-x (`
