@@ -81,6 +81,7 @@
 (load "config-highlight-symbol")
 (load "config-hooks")
 (load "config-isearch")
+(load "config-ispell")
 (load "config-osx")
 (load "config-registers")
 (load "config-workarounds")
