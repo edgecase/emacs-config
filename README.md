@@ -117,6 +117,10 @@ Using [Magit](http://daemianmack.com/magit-cheatsheet.html)
 
 `C-c g` => MAGIT status
 
+Driving Git with Emacs
+[part 1](http://blog.jr0cket.co.uk/2012/12/driving-git-with-emacs-pure-magic-with.html)
+& [part 2](http://blog.jr0cket.co.uk/2012/12/driving-git-with-emacs-part-two-may-log.html)
+
 * `<tab>` => view diff
 * `s` => stage changes
 * `S` => stage all changes
