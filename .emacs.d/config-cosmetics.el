@@ -1,7 +1,7 @@
 ;; font
 (set-face-attribute 'default nil :height 140)
 
-;; change hl-line color to light grayn
+;; change hl-line color to light gray
 ;; (custom-set-faces
 ;;  '(hl-line ((t (:background "#2a2a2a")))))
 
