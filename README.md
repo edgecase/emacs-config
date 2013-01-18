@@ -65,6 +65,10 @@ them to the folder `~/.emacs.d/<username>`.
 `C-S-up`, `C-S-down`, `C-S-left`, `C-S-right`  => swap buffer up,
 down, left, right
 
+`M-+`, `M--` => enlarge and shrink window
+
+`M-{`, `M-}` => enlarge and shrink window horizontally
+
 `C-x C-+` => increase font size
 
 `C-x C--` => decrease font size
