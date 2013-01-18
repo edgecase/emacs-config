@@ -15,6 +15,12 @@
 (global-set-key (kbd "<C-S-left>")   'buf-move-left)
 (global-set-key (kbd "<C-S-right>")  'buf-move-right)
 
+;; buffer-resize bindings
+(global-set-key (kbd "M-+") 'enlarge-window)
+(global-set-key (kbd "M--") 'shrink-window)
+(global-set-key (kbd "M-}") 'enlarge-window-horizontally)
+(global-set-key (kbd "M-{") 'shrink-window-horizontally)
+
 ;; isearch customizations
 (defvar isearch-paste-keymap (make-sparse-keymap "isearch-paste"))
 (define-key isearch-mode-map (kbd "C-v") isearch-paste-keymap)
