@@ -6,7 +6,7 @@
 ;;  '(hl-line ((t (:background "#2a2a2a")))))
 
 ;; default to better frame titles
-(setq frame-title-format (concat  "%b - emacs@" system-name))
+(setq frame-title-format (concat "%b - emacs@" system-name))
 
 ;; turn on line numbers
 (global-linum-mode t)
